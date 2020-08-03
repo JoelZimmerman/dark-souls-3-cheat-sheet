@@ -12,9 +12,9 @@
 .done { color: #009933; }
 
 @media print {
-    body { color: #000; }
+    body { color: #d0d0d2; background-color: #141422;}
     .navbar, #intro, input[type="checkbox"], .done, .in_progress { display: none; }
-    a { color: #000; text-decoration: underline; }
+    a { color: #f9efc1; text-decoration: underline; }
     a[href]:after { content: none !important; }
     .tab-content > .tab-pane, .pill-content > .pill-pane { display: block; }
     .tab-pane { page-break-after: always; }
